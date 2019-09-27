@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Brookhouse|SIGN UP</title>
+<style>
+body{
+font-family:consolas;
+}
+section{
+font-size:20px;
+}
+section{
+border-sizing:border-box;
+background-color:lightgray;
+width:300px;
+height:500px;
+}
+input{
+border:none;
+outline:none;
+border-bottom:1px solid black;
+background:transparent;
+text-align:center;
+}
+.submit{
+border:1px solid black;
+margin-left:100px;
+margin-right:100px;
+border-radius:50px;
+margin-bottom:15px;
+}
+.submit input{
+font-size:17px;
+font-weight:bold;
+border-bottom:none;
+
+}
+.cancel{
+border:1px solid black;
+margin-left:100px;
+margin-right:100px;
+border-radius:50px;
+margin-bottom:15px;
+}
+.cancel input{
+font-size:17px;
+font-weight:bold;
+border-bottom:none;
+}
+
+</style>
+</head>
+<body>
+<center>
+<form action="signup.php" method="post">
+<section>
+<p>SIGN UP</p><pre>
+First Name<br><input type="text" name="firstname" placeholder="Enter First Name"><br>
+last Name<br><input type="text" name="lastname" placeholder="Enter last Name"><br>
+Email Address<br><input type="text" name="email" placeholder="Enter Email Address"><br>
+Mobile Number<br><input type="text" name="mobilenumber" placeholder="Enter Mobile Number"><br>
+Create Password<br><input type="password" name="password" placeholder="Enter Create Password"><br>
+Confirm Password<br><input type="text" name="" placeholder="Enter Confirm Password"><br></pre>
+<div class="submit">
+<input type="submit" value="Submit">
+</div>
+<div class="cancel">
+<input type="reset" value="Cancel">
+</div>
+</section>
+</form>
+</center>
+</body>
+</html>
